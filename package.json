@@ -1,0 +1,33 @@
+{
+  "name": "text-card",
+  "description": "将文字变成卡片样式，并导出图片",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "axios": "^1.6.7",
+    "naive-ui": "^2.37.3",
+    "pinia": "^2.1.7",
+    "vant": "^4.8.3",
+    "vue": "^3.3.11",
+    "vue-router": "^4.2.5"
+  },
+  "devDependencies": {
+    "@unocss/transformer-directives": "^0.58.4",
+    "@vicons/ionicons5": "^0.12.0",
+    "@vicons/material": "^0.12.0",
+    "@vitejs/plugin-vue": "^4.5.2",
+    "unocss": "^0.58.4",
+    "unplugin-auto-import": "^0.17.5",
+    "unplugin-vue-components": "^0.26.0",
+    "unplugin-vue-router": "^0.7.0",
+    "vfonts": "^0.0.3",
+    "vite": "^5.0.8",
+    "vite-plugin-auto-zip": "^1.1.4"
+  }
+}
