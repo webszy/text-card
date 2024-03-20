@@ -3,5 +3,6 @@ import { defineStore } from 'pinia'
 export const useAppStore = defineStore('app', {
     state:()=>({
         isDev: import.meta.env.DEV,
+        CardRefs:[]
     })
 })

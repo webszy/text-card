@@ -10,7 +10,6 @@ const router = createRouter({
     history:createWebHashHistory(),
     routes
 })
-console.log(routes,import.meta.env)
 const app = createApp(App)
 app.use(router)
 app.use(createPinia())
